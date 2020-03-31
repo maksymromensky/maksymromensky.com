@@ -59,7 +59,7 @@ void setup() {
   textSize(28);
   text("Loading...", width/2-textWidth("Loading...")/2, height/2);
   textSize(16);
-  text("(refresh if this takes too long)", width/2-textWidth("(refresh if this takes too long)")/2, height/2+textHeight*2);
+  text("(refresh if this takes too long)", width/2-textWidth("(refresh if this takes too long)")/2, height/2+100);
   f=createFont("Arial", 16);
   
   frameRate(15);
