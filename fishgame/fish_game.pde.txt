@@ -20098,7 +20098,7 @@ randomSeed( hour() + second() + millis() );
   for (int j = 0; j < movielength+1; j++) {
     jj=jj+2;
    String imageName = "imag" + nf(jj, 4) + ".jpeg";
-  images[j] = loadImage("http://collective-behavior.com/apps/fishgame/"+imageName);
+  images[j] = loadImage("http://maksymromensky.com/fishgame/"+imageName);
   }
   
   r = random(1);
@@ -20391,11 +20391,11 @@ void drawScreenFour() {
     if(writelog){
     String s=str(correct);
     if (correct==6){
-      link("http://collective-behavior.com/apps/fishgame/form.html");
+      //link("http://collective-behavior.com/apps/fishgame/form.html");
   writelog=false;  
   }else
     {
-String new1 = loadStrings("http://"+"collective-behavior.com/apps/fishgame/log.php?value="+s);
+//String new1 = loadStrings("http://"+"collective-behavior.com/apps/fishgame/log.php?value="+s);
     //putinfo();
     writelog=false;
     }  
