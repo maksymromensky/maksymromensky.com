@@ -20092,7 +20092,7 @@ randomSeed( hour() + second() + millis() );
   ellipseMode(CENTER);
   circle1stroke = color(55);
   circle2stroke =color(55);
-  img = loadImage("http://collective-behavior.com/apps/fishgame/background.jpeg");
+  img = loadImage("http://maksymromensky.com/fishgame/background.jpeg");
   img1 = loadImage("http://collective-behavior.com/apps/fishgame/fish_small.png");
   
   for (int j = 0; j < movielength+1; j++) {
