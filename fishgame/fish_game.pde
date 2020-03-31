@@ -20093,12 +20093,12 @@ randomSeed( hour() + second() + millis() );
   circle1stroke = color(55);
   circle2stroke =color(55);
   img = loadImage("http://maksymromensky.com/fishgame/background.jpeg");
-  img1 = loadImage("http://collective-behavior.com/apps/fishgame/fish_small.png");
+  img1 = loadImage("http://maksymromensky.com/fishgame/fish_small.png");
   
   for (int j = 0; j < movielength+1; j++) {
     jj=jj+2;
    String imageName = "imag" + nf(jj, 4) + ".jpeg";
-   images[j] = loadImage("http://collective-behavior.com/apps/fishgame/"+imageName);
+   images[j] = loadImage("http://maksymromensky.com/fishgame/"+imageName);
   }
   
   r = random(1);
