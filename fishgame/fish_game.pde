@@ -58,8 +58,9 @@ void setup() {
   smooth();
   textSize(28);
   text("Loading...", width/2-textWidth("Loading...")/2, height/2);
-  text("Loading...", width/2-textWidth("(refresh if this takes too long)")/2, height/2-10);
-  f=createFont("Arial", 12);
+  textSize(16);
+  text("(refresh if this takes too long)", width/2-textWidth("(refresh if this takes too long)")/2, height/2-10);
+  f=createFont("Arial", 16);
   
   frameRate(15);
   //T18
